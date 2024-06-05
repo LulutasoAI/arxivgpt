@@ -1,0 +1,13 @@
+User Query -> GPT API (interpret query)
+    |
+    v
+Generate Search Query -> Web Search (using a search engine API)
+    |
+    v
+Retrieve Search Results -> Sumy (summarize content)
+    |
+    v
+Process Summary -> GPT API (generate response)
+    |
+    v
+Display Response to User
